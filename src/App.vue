@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-  <h1>GRID-366 - Evaluate Kendo UI Spreadsheet VUE Wrapper</h1>
+  <h1>Kendo UI Spreadsheet VUE Wrapper - POC</h1>
   <div>
   <router-view></router-view>
   </div>
