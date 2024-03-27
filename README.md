@@ -7,3 +7,10 @@ Kendo UI Spreadsheet VUE Wrapper - POC
 npm install
 npm start
 ```
+## To ensure that this app runs propertly without Kendi UI
+
+```
+git checkout no-kendo-ui
+npm install
+npm start
+```
