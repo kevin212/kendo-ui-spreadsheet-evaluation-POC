@@ -1,20 +1,21 @@
 <template>
   <div>
-    <Spreadsheet :height="500" :columns="10" :rows="50"></Spreadsheet>
+    Worksheet will go here...
+    <!-- <Spreadsheet :height="500" :columns="10" :rows="50"></Spreadsheet> -->
   </div>
 </template>
 
 <script>
-import { license } from '@progress/kendo-licensing';
-import { Spreadsheet } from '@progress/kendo-spreadsheet-vue-wrapper';
+// import { license } from '@progress/kendo-licensing';
+// import { Spreadsheet } from '@progress/kendo-spreadsheet-vue-wrapper';
 
 export default {
   name: 'App',
   components: {
-    Spreadsheet
+    // Spreadsheet
   },
   mounted() {
-    license('LIC KEY GOES HERE');
+    // license('LIC KEY GOES HERE');
   },
   methods: {
     onRender(arg) {
